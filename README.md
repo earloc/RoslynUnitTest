@@ -1,17 +1,16 @@
 # RoslynUnitTest
 Repro sample of Roslyn behaving different when invoked through a CLI vs a UnitTest
 
-## Steps to reproduce:
+# Steps to reproduce
 
-1. Invoke the CLI
-
+## 1. Invoke the CLI
 ### expected
 The program executes without exceptions
 ### actual
 ✔️ The program executes without exceptions
 
 
-2. Invoke one of the unit-tests
+## 2. Invoke one of the unit-tests
 ### expected
 The test passes
 ### actual
