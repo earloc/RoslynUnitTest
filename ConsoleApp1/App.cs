@@ -31,8 +31,8 @@ public class App
 
         if (diagnostics.Any(x => x.Severity == Microsoft.CodeAnalysis.DiagnosticSeverity.Error))
         {
-            //when running via TestProject1, 'diagnostics' contains several errors
-            //however, everything works fine when just running via ConsoleApp1
+            //everything works fine when just running via ConsoleApp1
+            //however, when running via either of the test-projects 'MsTestProject' / 'NUnitTestProject' / 'XUnitTestProject', diagnostics contains several errors
             throw new Exception("Project contains errors");
         }
     }
