@@ -1,4 +1,4 @@
-See #1 when you want to know how to fix this!
+See https://github.com/earloc/RoslynUnitTest/pull/1 when you want to know how to fix this!
 
 # RoslynUnitTest
 Repro sample of Roslyn behaving different when invoked through a CLI vs a UnitTest
@@ -20,4 +20,4 @@ The test passes
 
 # How to fix this?
 
-See #1
+See https://github.com/earloc/RoslynUnitTest/pull/1
